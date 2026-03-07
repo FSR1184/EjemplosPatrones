@@ -1,5 +1,5 @@
 # Ingeniería de Software
-**Grado en Ingeniería en Tecnologías de la Telecomunicación (GITT)**  
+**Grado en Ingeniería de las Tecnologías de Telecomunicación (GITT)**  
 **Universidad de Sevilla - Tercer Curso**
 
 ---
