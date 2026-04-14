@@ -24,7 +24,7 @@ import factorymethod.utilidades.MiFabrica;
  *              de colecciones, concretamente con un ArrayList.
  *
  * @version 2.0 Marzo 2020
- * @author  irm
+ * @author  ADRIAN FERNANDEZ ESPINOSA
  */
 public class Colecciones {
     public static void main (String args[]) {	
@@ -37,8 +37,8 @@ public class Colecciones {
     	Double lado;
     	int opcionElegida=0;
     	/**
-    	 * Instancio un tipo concreto de fábrica, será la responsable de construir la figura adecuada
-    	 * Recordad que en el ejemplo original (tema de repaso OO) el cliente incluía los "new" para las figuras en el propio código, aquí esa responsabilidad es de la fábrica
+    	 * Instancio un tipo concreto de fï¿½brica, serï¿½ la responsable de construir la figura adecuada
+    	 * Recordad que en el ejemplo original (tema de repaso OO) el cliente incluï¿½a los "new" para las figuras en el propio cï¿½digo, aquï¿½ esa responsabilidad es de la fï¿½brica
     	 */
         FabricaFiguras mifabrica= new MiFabrica();
         List<Number> lados=new ArrayList<Number>();
@@ -47,8 +47,8 @@ public class Colecciones {
   
         while (opcionElegida != 6){
         	System.out.println("Introduce el numero de la opcion que quieras:");
-        	System.out.println("1.-	Introducir figura en la colección");
-        	System.out.println("2.-	Ver número de figuras en la colección");  
+        	System.out.println("1.-	Introducir figura en la colecciï¿½n");
+        	System.out.println("2.-	Ver nï¿½mero de figuras en la colecciï¿½n");  
         	System.out.println("3.-	Recorre la coleccion");
         	System.out.println("4.-	Mostrar la coleccion");
         	System.out.println("5.-	Limpiar la lista");
@@ -56,7 +56,7 @@ public class Colecciones {
         	opcionElegida = sc.nextInt();
         	switch (opcionElegida){
         	case 1:
-        	/**Se discrimina la figura creada a partir del número de lados introducidos: 1, círculo, 2 rectángulo o cuadrado, 3 triángulo el resto de valores serán ignorados**/	
+        	/**Se discrimina la figura creada a partir del nï¿½mero de lados introducidos: 1, cï¿½rculo, 2 rectï¿½ngulo o cuadrado, 3 triï¿½ngulo el resto de valores serï¿½n ignorados**/	
         		do {
         		System.out.println("Introduce lado: (0 para terminar)");
         		lado = sc.nextDouble();
@@ -66,7 +66,7 @@ public class Colecciones {
         		System.out.println("Introduce color:");
         		String color = sc.next();
         		/**
-        		 * Uso la fábrica de modo que para este cliente es totalmente transparente el tipo de figura que se está creando
+        		 * Uso la fï¿½brica de modo que para este cliente es totalmente transparente el tipo de figura que se estï¿½ creando
         		 */
         		serieDeFiguras.add (mifabrica.creaFigura(lados, color));
         		lados.clear();
