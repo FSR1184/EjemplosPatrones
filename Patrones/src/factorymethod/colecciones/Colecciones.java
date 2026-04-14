@@ -25,6 +25,7 @@ import factorymethod.utilidades.MiFabrica;
  *
  * @version 2.0 Marzo 2020
  * @author  ADRIAN FERNANDEZ ESPINOSA
+ * uvus 	FSR1184
  */
 public class Colecciones {
     public static void main (String args[]) {	
